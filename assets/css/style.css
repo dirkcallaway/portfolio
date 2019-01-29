@@ -1,0 +1,60 @@
+.nav-wrapper{
+  background-color: #0093c4;
+}
+
+#main{
+  background-color: #4fc3f7;
+  text-align: center;
+}
+
+#about{
+  background-color: #e1f5fe;
+}
+
+#project1{
+  background-color: #afc2cb;
+  /* #90caf9 */
+}
+
+.page-footer{
+  background-color: #8bf6ff;
+}
+
+.bungeeShade {
+  font-family: 'Bungee Shade', cursive;
+}
+
+.bungee {
+  font-family: 'Bungee', cursive;
+}
+
+.lon {
+  font-family: 'Londrina Solid', cursive;
+  font-size: medium;
+}
+
+h1{
+  padding-top: 1em;
+}
+
+i {
+  padding-bottom: 1em;
+}
+
+#profilePic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#projectPic {
+  height: 250px;
+}
+
+.pl{
+  padding-left:10px;
+}
+
+.pr{
+  padding-right:10px;
+}
