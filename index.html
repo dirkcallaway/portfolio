@@ -15,6 +15,7 @@
 
 <body>
   <!--NavBar-->
+  <header>
   <div id="navbar" class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
@@ -27,9 +28,11 @@
       </div>
     </nav>
   </div>
-
+</header>
   <!--Content-->
+  <!-- <main> -->
   <div class="row">
+    <!-- Header Bar -->
     <div class="col s12 m12 l12">
       <div id="main" class="section scrollspy">
         <h1 class="bungeeShade">Matt Perroni</h1>
@@ -37,6 +40,7 @@
         <i class="medium material-icons">dashboard</i><i class="medium material-icons">device_hub</i><i class="medium material-icons">nature</i>
       </div>
 
+      <!-- About Me -->
       <div id="about" class="section scrollspy">
         <img id="profilePic" class="circle responsive-image" alt="Profile Picture" src="assets/images/mjpprofile1.jpg" />
         <div class="row">
@@ -88,14 +92,15 @@
         </div>
       </div>
 
+      <!-- Project Highlight 1 -->
       <div id="project1" class="section scrollspy">
         <div class="row">
           <div class="container">
-            <h4 class="bungee">Concerts & Cuisine</h4>
-            <div class="col s12 m4 14">
+            <h4 class="bungee center">Concerts & Cuisine</h4>
+            <div class="col s12 m4 l4">
               <img id="projectPic" class="responsive-image" alt="Concerts & Cuisine Project" src="assets/images/candc.PNG" />
             </div>
-            <div class="col s12 m8 14">
+            <div class="col s12 m8 l4">
               <ul>
                 <li class="lon">First Big Thing</li>
                 <li class="lon">Next Big Thing</li>
@@ -106,32 +111,56 @@
         </div>
       </div>
 
-      <div id="initialization" class="section scrollspy">
+      <!-- Project Highlight 2 -->
+      <div id="project2" class="section scrollspy">
         <div class="row">
           <div class="container">
-            <h4 class="bungee">Coloradical Trivia Game</h4>
-            <div class="col s12 m8 14">
+            <h4 class="bungee center">Coloradical Trivia Game</h4>
+            <div class="col s12 m8 l4">
               <ul>
                 <li class="lon">First Big Thing</li>
                 <li class="lon">Next Big Thing</li>
                 <li class="lon">Last Big Thing</li>
               </ul>
             </div>
-            <div class="col s12 m4 14">
-              <img id="projectPic" class="responsive-image" alt="Concerts & Cuisine Project" src="assets/images/candc.PNG" />
+            <div class="col s12 m4 l4">
+              <img id="projectPic" class="responsive-image" alt="Colorado Quiz Game" src="assets/images/trivia.PNG" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio -->
+      <div id="portfolio" class="section scrollspy">
+        <div class="row">
+          <div class="container">
+            <h4 class="bungee center">Other Projects</h4>
+            <div class="col s12 m12 l4">
+
+              <!-- First Portfolio Card -->
+              <div class="card">
+                <div class="card-image">
+                  <img src="assets/images/giph.PNG">
+                  <a href="https://dirkcallaway.github.io/giphtastic/" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">launch</i></a>
+                </div>
+                <div class="card-content">
+                  <p class="lon">A site showcasing API calls where users can search for a Gif of there choosing.  Extensive DOM manipulation courtesy of jQuery.</p>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
+<!-- </main> -->
   <!--Footer-->
   <footer class="page-footer">
     <div class="container">
       <div class="row">
         <div class="col s12">
-          <p class="valign center">© 2019 Copyright MJP</p>
+          <p class="valign center lon">© 2019 Copyright MJP</p>
         </div>
       </div>
     </div>

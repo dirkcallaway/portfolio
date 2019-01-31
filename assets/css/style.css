@@ -16,6 +16,10 @@
   /* #90caf9 */
 }
 
+#portfolio {
+  background-color: #3CD8E0;
+}
+
 .page-footer{
   background-color: #8bf6ff;
 }
@@ -63,4 +67,8 @@ i {
 #logo{
   height:150px;
   width:auto;
+}
+
+.black {
+  
 }
