@@ -8,11 +8,11 @@
 }
 
 #about{
-  background-color: #99d4e7;
+  background-color: #9ADBF8;
 }
 
 #project1{
-  background-color: #cce9f3;
+  background-color: #3CB2E0;
   /* #90caf9 */
 }
 
@@ -48,7 +48,8 @@ i {
 }
 
 #projectPic {
-  height: 250px;
+  max-width: 100%;
+  height: auto;
 }
 
 .pl{
@@ -57,4 +58,9 @@ i {
 
 .pr{
   padding-right:10px;
+}
+
+#logo{
+  height:150px;
+  width:auto;
 }
