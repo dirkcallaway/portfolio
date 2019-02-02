@@ -77,3 +77,13 @@ i {
 .black {
   color: black;
 }
+
+.customOrange{
+  background-color:#f75b1a;
+}
+
+.waves-effect.waves-customOrange .waves-ripple {
+  /* The alpha value allows the text and background color
+  of the button to still show through. */
+   background-color:#f75b1a;
+ }
